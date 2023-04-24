@@ -1,7 +1,7 @@
 {
   "generator-jhipster": {
     "applicationType": "monolith",
-    "authenticationType": "jwt",
+    "authenticationType": "oauth2",
     "baseName": "jhipsterOauthlearn",
     "blueprints": [],
     "buildTool": "maven",
@@ -10,7 +10,7 @@
     "clientPackageManager": "npm",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "creationTimestamp": 1682334705286,
+    "creationTimestamp": 1682333637148,
     "databaseType": "sql",
     "devDatabaseType": "h2Disk",
     "devServerPort": 4200,
@@ -22,7 +22,6 @@
     "entitySuffix": "",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "7.9.3",
-    "jwtSecretKey": "OGExODg4ZGQ1OTI0ZDI3NThkZGQ0NjVlOTY5ZTExYzBkZjc5N2RlYzk4MDhmODk0Y2Y0OGQxZjU4MzAxN2YwYjhkMjVlMjdlYTEwZDU4MDljN2QxYTAzNWQwMjU3MGJhNTY1MDFjYTc5Y2VlMjk2NjBmYjY2YjVmZDQ5NGRhYTA=",
     "languages": ["en"],
     "messageBroker": false,
     "microfrontend": false,
@@ -40,7 +39,7 @@
     "skipCheckLengthOfIdentifier": false,
     "skipClient": false,
     "skipFakeData": false,
-    "skipUserManagement": false,
+    "skipUserManagement": true,
     "testFrameworks": [],
     "websocket": false,
     "withAdminUi": true
